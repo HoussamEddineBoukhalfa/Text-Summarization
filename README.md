@@ -1,4 +1,4 @@
-# 📘 Welcome to the Arabic Text Summarization Project
+# 📘 The Arabic Text Summarization Project
 
 ## Overview
 In this project, we'll be delving into the fascinating task of text summarization with a focus on the Arabic language 📚. Our goal is to develop a model that can efficiently summarize Arabic text, making it easier to grasp the essence of large documents quickly 🚀.
