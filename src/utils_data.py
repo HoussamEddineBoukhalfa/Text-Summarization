@@ -23,7 +23,7 @@ class GPT2Dataset(Dataset):
 
     encoding = self.encodings[idx]
     text = torch.tensor(encoding['input_ids'], dtype=torch.long) # exract input_ids from encodings
-    attn_mask = torch.tensor(encoding['mask'], dtype=torch.long) # exract mask from encodings
+    attn_mask = torch.tensor(encoding['attention_mask'], dtype=torch.long) # exract mask from encodings
     s_idx = self.sum_idx[idx] + 2 # add bos and cls
     out = {'text': text, 'mask': attn_mask, 's_idx': s_idx}
     return out 
